@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ViewPager1</string>
+    <color name="white">#fff</color>
+    <color name="android_blue">#ff0600ff</color>
+    <color name="android_purple">#ff7d00ff</color>
+    <color name="android_green">#ff1cff01</color>
+    <color name="android_yellow">#fffffa04</color>
+    <color name="android_red">#ffff0005</color>
+</resources>
