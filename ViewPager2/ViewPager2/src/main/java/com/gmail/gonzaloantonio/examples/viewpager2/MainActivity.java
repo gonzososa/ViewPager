@@ -13,6 +13,8 @@ public class MainActivity extends FragmentActivity {
         setContentView (R.layout.activity_main);
 
         pager = (ViewPager) findViewById (R.id.pager);
+        //pager.setPageTransformer (true, new ZoomOutPageTransformer ());
+        pager.setPageTransformer (true, new DepthPageTransform ());
 
         MyFragmentPageAdapter adapter = new MyFragmentPageAdapter (getSupportFragmentManager ());
 
